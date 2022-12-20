@@ -53,4 +53,4 @@ Interface(
     ],
     live=True,
     allow_flagging="never",
-).launch(debug=True)
+).launch()
