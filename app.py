@@ -10,7 +10,7 @@ desired_language = "de"
 response_generator_pipe = TextGenerationPipeline(max_length=max_answer_length)
 
 
-def main(audio: object) -> tuple[str, str, str, object]:
+def main(audio: object):
     """Calls functions for deploying gradio app.
 
     It responds both verbally and in text
