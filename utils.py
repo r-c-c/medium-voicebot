@@ -18,12 +18,14 @@ def stt(audio: object, language: str) -> str:
     Returns:
         text (str): recognized speech of user
     """
+    
+    # Create a Recognizer object
     r = Recognizer()
-    # open the audio file
+    # Open the audio file
     with AudioFile(audio) as source:
-        # listen for the data (load audio to memory)
+        # Listen for the data (load audio to memory)
         audio_data = r.record(source)
-        # recognize (convert from speech to text)
+        # Transcribe the audio using Google's speech-to-text API
         text = r.recognize_google(audio_data, language=language)
     return text
 
