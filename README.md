@@ -27,7 +27,7 @@ Medium post link: https://medium.com/@remzicam/building-and-deploying-ai-voice-c
 <br>• mtranslate (translator)
 <br>• gtts (text to speech)
 <br>• speech_recognition (speech to text)
-<br>• bytes like objects for autoplaying audion on web
+<br>• bytes like objects for autoplaying audio on web
 
 I use google API based libraries for speech recognition (speech to text), text to speech, and language translation.
 
